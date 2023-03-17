@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/common/PatternProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="配置管理 &amp;&amp; 共享配置">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/client/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,6 +65,7 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "spring.boot"
   }
 }]]></component>
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679041190676</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="配置管理 &amp;&amp; 共享配置">
+      <created>1679062350945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679062350949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +195,8 @@
     <MESSAGE value="init RestTemplate发起远程调用" />
     <MESSAGE value="服务发现 饥饿加载" />
     <MESSAGE value="spring cloud alibaba 同集群优先的负载均衡规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cloud alibaba 同集群优先的负载均衡规则" />
+    <MESSAGE value="配置管理 &amp;&amp; 共享配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置管理 &amp;&amp; 共享配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
