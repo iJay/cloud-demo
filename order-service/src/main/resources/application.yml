@@ -28,3 +28,10 @@ userservice:
   ribbon:
     # 同集群优先的负载均衡 默认情况下NacosRule是同集群内随机挑选，不会考虑机器的性能问题。可以在nacos服务详情上修改权重
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+feign:
+  client:
+    config:
+#      userservice: # 针对某个微服务的配置
+#        logger-level: FULL # 日志级别
+      default: # 这里用default就是全局配置，如果是写服务名称，则是针对某个微服务的配置
+        logger-level: FULL
