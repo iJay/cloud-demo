@@ -14,7 +14,7 @@ spring:
       discovery:
         cluster-name: HZ # 集群名称 同集群优先的负载均衡
         # dev 命名空间下 与 public是隔离的 两个空间下的服务互相访问不到 会报错 java.lang.IllegalStateException: No instances available for userservice
-        namespace: 79f0d335-b783-4ee3-a8c2-619db3c2e5f5
+        # namespace: 79f0d335-b783-4ee3-a8c2-619db3c2e5f5
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
