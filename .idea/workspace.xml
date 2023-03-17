@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="feign远程服务调用">
+    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="配置文件中修改远程服务调用的日志级别">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev04-feign-request" />
+        <entry key="$PROJECT_DIR$" value="dev05-custom-feign-config" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679064485649</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="配置文件中修改远程服务调用的日志级别">
+      <created>1679065284178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679065284178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +207,8 @@
     <MESSAGE value="spring cloud alibaba 同集群优先的负载均衡规则" />
     <MESSAGE value="配置管理 &amp;&amp; 共享配置" />
     <MESSAGE value="feign远程服务调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign远程服务调用" />
+    <MESSAGE value="配置文件中修改远程服务调用的日志级别" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件中修改远程服务调用的日志级别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +217,11 @@
           <url>jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/BaseLoadBalancer.class</url>
           <line>635</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.6.RELEASE/spring-cloud-openfeign-core-2.2.6.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.class</url>
+          <line>241</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

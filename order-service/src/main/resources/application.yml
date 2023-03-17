@@ -35,3 +35,7 @@ feign:
 #        logger-level: FULL # 日志级别
       default: # 这里用default就是全局配置，如果是写服务名称，则是针对某个微服务的配置
         logger-level: FULL
+  httpclient:
+    enabled: true # 开启feign对HttpClient的支持
+    max-connections: 300 # 最大的连接数
+    max-connections-per-route: 80 # 每个路径的最大连接数
