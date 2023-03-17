@@ -13,6 +13,8 @@ spring:
       server-addr: localhost:8848
       discovery:
         cluster-name: HZ # 集群名称 同集群优先的负载均衡
+        # dev 命名空间下 与 public是隔离的 两个空间下的服务互相访问不到 会报错 java.lang.IllegalStateException: No instances available for userservice
+        namespace: 79f0d335-b783-4ee3-a8c2-619db3c2e5f5
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -24,4 +26,5 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
 userservice:
   ribbon:
-    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 同集群优先的负载均衡
+    # 同集群优先的负载均衡 默认情况下NacosRule是同集群内随机挑选，不会考虑机器的性能问题。可以在nacos服务详情上修改权重
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
