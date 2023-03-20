@@ -32,7 +32,8 @@ public class UserController {
      * @return 用户
      */
     @GetMapping("/{id}")
-    public User queryById(@PathVariable("id") Long id) {
+    public User queryById(@PathVariable("id") Long id,  @RequestHeader(value = "D-Header", required = false) String Dheader) {
+        System.out.println("DHeader: " + Dheader);
         return userService.queryById(id);
     }
 

@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="feign的http请求替换成支持连接池的httpClient组件">
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4f8fe9c9-f7ad-49b8-9686-ac5712a80f05" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/filters/AuthorizeFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev06-feign-in-single-module" />
+        <entry key="$PROJECT_DIR$" value="dev08-gateway" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679066054199</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="gateway网关引入">
+      <created>1679276764418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679276764418</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +255,8 @@
     <MESSAGE value="feign远程服务调用" />
     <MESSAGE value="配置文件中修改远程服务调用的日志级别" />
     <MESSAGE value="feign的http请求替换成支持连接池的httpClient组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feign的http请求替换成支持连接池的httpClient组件" />
+    <MESSAGE value="gateway网关引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway网关引入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

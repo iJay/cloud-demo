@@ -17,3 +17,7 @@ spring:
           uri: lb://order-service
           predicates:
             - Path=/order/**
+#          filters: # order-service服务下的过滤器
+#            - AddRequestHeader=D-Header, order-filter # 添加请求头
+      default-filters: # 默认过滤项
+        - AddRequestHeader=D-Header, default-filter # 添加请求头
